@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/2
+
 class ProductIdValidator:
     sum_of_invalid_ids = 0
 
@@ -24,7 +26,6 @@ class ProductIdValidator:
             return csv.split(',')
 
     def find_invalid_ids_part_1(self, start_range, end_range):
-
         for i in range(start_range, end_range + 1):
             i_str = str(i)
             i_length = len(i_str)

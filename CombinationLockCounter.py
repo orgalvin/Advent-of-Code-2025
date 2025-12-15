@@ -1,3 +1,5 @@
+# https://adventofcode.com/2025/day/1
+
 class CombinationLockCounter:
     number_of_positions = 100
 
